@@ -127,6 +127,47 @@ textarea {
     font-style: normal;
 }
 
+/**
+    Rotation animation
+ */
+
+@-webkit-keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes infinite-spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/**
+    Styles
+ */
+
 html,
 body,
 .container {
@@ -154,6 +195,11 @@ body {
 
 .main-content p {
     margin: 0;
+}
+
+.logo {
+    animation: infinite-spinning linear 3.5s infinite;
+    /*transform: translateZ(0);*/
 }
 
 /* ==========================================================================
