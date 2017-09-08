@@ -187,45 +187,19 @@ body {
 }
 
 .main-content {
-    font-size: 3.5rem;
-    line-height: 0.75;
+    line-height: 0.9;
     text-align: center;
     text-transform: uppercase;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    color: #dadada;
+    font-size: 1rem;
 }
-
-@media (min-width: 375px) {
-    .main-content {
-        font-size: 4.5rem;
-    }
-}
-
-@media (min-width: 414px) {
-    .main-content {
-        font-size: 5.5rem;
-    }
-} 
 
 @media (min-width: 568px) {
     .main-content {
         font-size: 2rem;
-    }
-}
-
-@media (min-width: 667px) {
-    .main-content {
-        font-size: 3rem;
-    }
-}
-
-@media (min-width: 736px) {
-    .main-content {
-        font-size: 3.5rem;
-    }
-}
-
-@media (min-width: 737px) {
-    .main-content {
-        font-size: 5.5rem;
     }
 }
 
@@ -234,8 +208,8 @@ body {
 }
 
 .logo {
-    animation: infinite-spinning linear 3.5s infinite;
-    /*transform: translateZ(0);*/
+    animation: infinite-spinning linear 10s infinite;
+    transform: translateZ(0);
 }
 
 /* ==========================================================================
