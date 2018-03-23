@@ -127,11 +127,6 @@ textarea {
     font-style: normal;
 }
 
-body,
-a {
-    cursor: url('../favicon-32x32.png') 0 0, crosshair;
-}
-
 /**
     Rotation animation
  */
